@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+}
+#título1{
+    color: white;
+    font-family: Kdam Thmor Pro;
+    font-style: italic;
+    text-decoration: underline
+}
+p{
+    color: #00FF73;
+    font-family: "Press Start 2P";
+}
+#input1{
+    color: #0a2e1a;
+    background-color: #00FF73;
+    border-color: #2d774e;
+    border-radius: 5px;
+}
+#sub1{
+    color: #2d774e;
+    background-color: #0a2e1a;
+    border-color: #2d774e;
+    border-radius: 5px;
+    font-family: "Kdam Thmor Pro";
+}
+#successMessage{
+    color: #00FF73;
+    font-family: "Press Start 2P";
+}
+#messageContainer {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.error-message{
+    color: darkred;
+    font-family: "Press Start 2P";
+}
+#last-update {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+}
+.glitch-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff; /* Cor do texto */
+    text-shadow: 
+        -1px -1px 0 #00ff00, /* Sombra com cor de glitch */
+        1px -1px 0 #ff00ff,  /* Outra cor de glitch */
+        -1px 1px 0 #ff0000,  /* Mais uma cor de glitch */
+        1px 1px 0 #0000ff;   /* Outra cor de glitch */
+    animation: glitch 0.05s infinite linear alternate-reverse;
+}
+
+@keyframes glitch {
+    0% {
+        text-shadow: 
+            -1px -1px 0 #00ff00,
+            1px -1px 0 #ff00ff,
+            -1px 1px 0 #ff0000,
+            1px 1px 0 #0000ff;
+    }
+    100% {
+        text-shadow: 
+            -1px -1px 0 #ff0000,
+            1px -1px 0 #00ff00,
+            -1px 1px 0 #0000ff,
+            1px 1px 0 #ff00ff;
+    }
+}
