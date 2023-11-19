@@ -8,7 +8,7 @@ document.getElementById('input1').addEventListener('keyup', function(event) {
 
 function checkPassword() {
     var enteredCode = document.getElementById('input1').value;
-    var correctCode = '123'; // Insira seu código correto aqui
+    var correctCode = '4257'; // Insira seu código correto aqui
     var successMessage = document.getElementById('successMessage');
     var audio = document.getElementById('audio');
     var body = document.body;
