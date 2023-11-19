@@ -24,9 +24,9 @@ p{
     border-radius: 5px;
     font-family: "Kdam Thmor Pro";
 }
-#sub2{
+#sub2 {
     background-color: #000;
-    color: rgb(12, 10, 10)000; /* Define a cor do texto como branco para contraste */
+    color: #fff; /* Define a cor do texto como branco para contraste */
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
