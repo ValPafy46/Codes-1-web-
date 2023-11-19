@@ -25,8 +25,8 @@ p{
     font-family: "Kdam Thmor Pro";
 }
 #sub2 {
-    background-color: #000;
-    color: #fff; /* Define a cor do texto como branco para contraste */
+    background-color: #000; /* Define o fundo como preto */
+    color: #000; /* Define o texto como preto */
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -36,6 +36,7 @@ p{
     font-size: 16px;
     font-family: "Kdam Thmor Pro";
 }
+
 #successMessage{
     color: #00FF73;
     font-family: "Press Start 2P";
