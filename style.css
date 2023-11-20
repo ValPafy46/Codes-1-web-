@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    position: relative;
 }
 #título1{
     color: white;
@@ -88,4 +89,24 @@ p{
             -1px 1px 0 #0000ff,
             1px 1px 0 #ff00ff;
     }
+}
+
+.countdown {
+    position: absolute;
+    display: flex;
+    font-size: 17px;
+    color: green;
+    font-family: "Press Start 2P";
+}
+
+.countdown span {
+    margin: 0 4px;
+    background-color: #000000;
+    border-radius: 5px;
+}
+.expired {
+    color: darkred;
+    font-size: 17px;
+    background-color: black;
+    font-family: "Press Start 2P";
 }
