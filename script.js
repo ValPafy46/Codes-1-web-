@@ -44,7 +44,7 @@ function hideElement(element) {
 hideElement(document.getElementById('successMessage'));
 
 function updateCountdown() {
-    const countdownDate = new Date("2023-11-21T23:59:00").getTime();
+    const countdownDate = new Date("2023-11-25T15:30:00").getTime();
 
     const now = new Date().getTime();
     const distance = countdownDate - now;
@@ -69,7 +69,10 @@ function updateCountdown() {
         countdownElement.textContent = "EXPIRED";
     }
 }
-
-const interval = setInterval(updateCountdown, 1000);
-updateCountdown();
-
+window.onload = function() {
+    updateCountdown();
+};
+window.onload = function() {
+    updateCountdown(); // Chama a função uma vez ao carregar a página para exibir a contagem inicial
+    setInterval(updateCountdown, 1000); // Atualiza a contagem a cada segundo
+};
