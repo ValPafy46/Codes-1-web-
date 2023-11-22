@@ -76,3 +76,7 @@ window.onload = function() {
     updateCountdown(); // Chama a função uma vez ao carregar a página para exibir a contagem inicial
     setInterval(updateCountdown, 1000); // Atualiza a contagem a cada segundo
 };
+
+
+let audio = document.querySelector("audio");
+audio.volume = 1;
